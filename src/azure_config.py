@@ -4,10 +4,10 @@ import re
 class AzureConfig:
     def __init__(self):
         # Load environment variables for Azure configuration
-        self.subscription_id = os.environ["AZURE_SUBSCRIPTION_ID"]
-        self.resource_group = os.environ["AZURE_RESOURCE_GROUP"]
-        self.workspace_name = os.environ["AZUREAI_PROJECT_NAME"]
-        self.location = os.getenv("AZURE_LOCATION", "")
+        self.subscription_id = os.environ["1c0fa982-cc8b-4b7b-9602-88529c77d930"]
+        self.resource_group = os.environ["rg-rag-project-dev"]
+        self.workspace_name = os.environ["ai-project-fdaa7bhdeazxq"]
+        self.location = os.getenv("eastus2", "")
         self.aoai_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT", "")
         self.aoai_api_version = os.getenv("AZURE_OPENAI_API_VERSION", "")
         self.search_endpoint = os.getenv("AZURE_SEARCH_ENDPOINT", "")
