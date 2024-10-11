@@ -1,6 +1,6 @@
 from promptflow.client import PFClient
 from promptflow.core import AzureOpenAIModelConfiguration
-from src.azure_config import AzureConfig 
+from azure_config import AzureConfig 
 config = AzureConfig()
 import os
 
